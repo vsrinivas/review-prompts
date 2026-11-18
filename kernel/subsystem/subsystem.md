@@ -94,6 +94,8 @@ and symbols regexes.
 | ARM GICv3/v4 | drivers/irqchip/irq-gic-v3, drivers/irqchip/irq-gic-v4, vgic-v3, vgic-v4, vgic-its, vgic-mmio, arm-gic-v3\.h, arm-gic-v4\.h, `\bGICD_`, `\bGICR_`, `\bGITS_`, `ICH_LR`, `ICC_SGI1R`, `its_vpe`, `vgic_its` | gic-v3.md |
 | ARM GICv5 | drivers/irqchip/irq-gic-v5, vgic-v5, arm-gic-v5\.h, gicv5_, GICV5_, ICC_PPI_, ICH_PPI_, ICC_ICSR, ICC_IAFFIDR, ICH_CONTEXTR_EL2, IRS_IDR, FEAT_GCIE, GCIE_LEGACY, gsb_sys, gsb_ack | gic-v5.md |
 | x86 KVM | arch/x86/kvm/ | kvm-x86.md |
+| IOMMU | drivers/iommu/, include/linux/iommu*, include/uapi/linux/iommu*, iommu_domain, iommu_ops, iommu_iotlb_gather, iopf_, iommufd_ | iommu.md |
+| x86 IOMMU | drivers/iommu/intel/, drivers/iommu/amd/, drivers/iommu/hyperv/, arch/x86/kernel/pci-dma.c, intel_iommu, amd_iommu, dmar_, qi_desc, dev_table_entry | iommu-x86.md |
 
 ## Optional Patterns
 
